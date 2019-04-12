@@ -23,6 +23,12 @@ article {
     width: 80%;
 }
 
-img {
-    
+img{
+    height: 123px;
+    width: 234px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: darkorange;
+    border-radius: 5px;   
 }
+
