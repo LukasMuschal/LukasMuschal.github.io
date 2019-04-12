@@ -1,0 +1,28 @@
+/* Stylesheet css Datei für Aufgabe3 */
+
+body {
+    font-size: 1.0em;
+    line-height: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: dimgray;
+}
+
+p {
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    background-color: darkred;
+    width: 85%;
+}
+
+article {
+    background-color: snow;
+    width: 80%;
+}
+
+img {
+    
+}
