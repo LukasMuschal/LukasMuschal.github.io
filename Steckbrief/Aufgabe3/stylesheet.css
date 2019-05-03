@@ -1,6 +1,6 @@
 /* Stylesheet css Datei für Aufgabe3 */
 
-header div{
+header {
     z-index: 50;
     position:fixed;
     top: -20px;
