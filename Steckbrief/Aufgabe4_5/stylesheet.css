@@ -70,6 +70,10 @@ p {
 section {
     background-color: darkred;
     width: 20%;
+    height: 30em;
+    overflow:auto;
+    overflow-x:auto;
+    overflow-y:auto;
     margin: 1%;
     float: left;
     padding: 2%;
