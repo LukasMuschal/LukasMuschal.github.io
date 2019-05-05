@@ -18,30 +18,69 @@ h1 {
 }
 
 header {
-    text-align: left;
+    width: 100%;
+    background-color: darkslategrey;
+    padding: 5px;
+    margin-bottom: 5%;
 }
 
-ul {
+nav ul{
     text-align: center;
-    font-size: 2em;
+    font-size: 0.7em;
     margin: 0;
     padding: 0;
-    background-color: white;
+    color: black;
 }
 
+nav li{
+    display: inline;
+    padding: 1em;
+}
+
+nav li{
+    color: darkgray;
+}
+
+nav li:hover{
+    color: darkgray;
+}
+
+main {
+    width:60%;
+    margin-left: 20%;
+}
+
+h2 {
+    text-align: center;
+}
+
+section+article {
+    width: 50%;
+    overflow: hidden;
+    overflow-x:hidden;
+}
 
 
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 section {
     background-color: darkred;
-    width: 85%;
+    width: 20%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
 }
 
+img.content {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
 article {
     background-color: snow;
     width: 80%;
@@ -56,3 +95,27 @@ img{
     border-radius: 5px;   
 }
 
+aside.aside1 {
+    background: darkslategray;
+    float: left;
+    width: 20%;
+    padding: 1%;
+    position: relative;
+    border: darkorange;
+    border-style: solid;
+    border-width: 2px;
+}
+
+aside.aside1:hover {
+    padding-left: 4em;
+    padding-bottom: 4em;
+    right: 2em;
+}
+
+footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background: snow;
+    float: left;
+}
