@@ -82,8 +82,8 @@ img.content {
     border: 2px solid orange;
 }
 article {
-    background-color: snow;
-    width: 80%;
+    background-color: rgb(245, 197, 197);
+    width: 90%;
 }
 
 img{
