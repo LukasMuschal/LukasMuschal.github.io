@@ -114,7 +114,7 @@ aside.aside1:hover {
 
 footer {
     width: 100%;
-    position: sticky;
-    background: snow;
+    position: static;
+    background: darkslategrey;
     float: left;
 }
