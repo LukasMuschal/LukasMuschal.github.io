@@ -29,12 +29,7 @@ ul {
     background-color: white;
 }
 
-aside {
-    clear: left;
-    width: 25%;
-    overflow: auto;
-    float: left;
-}
+
 
 p {
     font-size: 1.5em;
