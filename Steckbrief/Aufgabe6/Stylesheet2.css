@@ -24,62 +24,50 @@ header {
     margin-bottom: 5%;
 }
 
-#Menü{
-    width: 35px;
-    height: 5px;
-    background-color: aliceblue;
-    margin: 6px 0;
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-top: -15%;
+    overflow: hidden;
+    transition: 0,3s;
+    height: 3em;
 }
 
+nav:hover{
+    height:15em;
+}
+
+nav li:hover{
+border-color: orange;
+}
+div{
+    width: 30px;
+    height: 8px;
+    background-color: aliceblue;
+    margin-bottom: 8px;
+}
+#Menü {
+    font-size: 5em;
+    line-height: 1,5;
+    display:block;
+    width: 15px;
+    transition: transform 0.8s;
+}
 #Menü:hover{
-    transform: rotate(90dg);
-    transition: 300ms;
+    transform: rotate(90deg);
 }
-ul {
-    position: fixed;
-    display: none;
-    width: 300px;
-    top: 120px;
-    left: -20px;
-    list-style: none;
-    font-size: 130%;
-}
-.BM {
+
+
+.mi {
     width: 35px;
     height: 5px;
     background-color: blueviolet;
     margin: 6px 0;
 }
-.BM:hover{
+.mi:hover{
     display: block;
 }
- ul:hover{
-     display: block;
- }
 
-
-li{
-    display: block;
-    padding: 2em;
-    background-color: aliceblue;
-    color: black;
-    margin: 0;
-}
-
- li:hover{
-    background-color: darkgray;
-    position: relative;
-    padding: 0 0 0.5em 0;
-    display: block;
-    text-decoration: underline;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-a{
-    color: darkgray;
-    border-bottom: 2px solid #03405f;
-}
 
 main {
     width:60%;
