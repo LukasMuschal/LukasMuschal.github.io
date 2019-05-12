@@ -29,7 +29,7 @@ nav {
     float: left;
     margin-top: -15%;
     overflow: hidden;
-    transition: 0,3s;
+    transition: 0,5s;
     height: 4em;
     color: whitesmoke;
 }
