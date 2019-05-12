@@ -26,7 +26,7 @@ header {
 
 nav {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-size: 1em;
     float: left;
     margin-top: -15%;
     overflow: hidden;
@@ -36,7 +36,7 @@ nav {
 }
 
 nav:hover{
-    height:45em;
+    height:25em;
 }
 
 nav li:hover{
