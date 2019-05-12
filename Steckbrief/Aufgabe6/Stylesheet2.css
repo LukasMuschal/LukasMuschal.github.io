@@ -44,6 +44,12 @@ ul {
     list-style: none;
     font-size: 130%;
 }
+.BM {
+    width: 35px;
+    height: 5px;
+    background-color: blueviolet;
+    margin: 6px 0;
+}
 .BM:hover{
     display: block;
 }
