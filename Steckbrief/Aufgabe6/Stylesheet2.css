@@ -45,10 +45,10 @@ nav li{
     padding: 2em;
 }
 nav li{
-    color: darkgray;
+    color: rgb(223, 11, 11);
 }
 nav li:hover{
-    color: darkgray;
+    color:darkgray;
 }
 
 nav:hover{
