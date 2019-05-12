@@ -32,17 +32,24 @@ nav ul{
     color: black;
 }
 
-nav li{
+nav ul li{
     display: inline;
     padding: 2em;
+    margin: 0;
 }
 
-nav li{
+nav ul li a{
     color: darkgray;
+    position: relative;
+    padding: 0 0 0.5em 0;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-nav li:hover{
+nav ul.menu li a:hover{
     color: darkgray;
+    border-bottom: 2px solid #03405f;
 }
 
 main {
