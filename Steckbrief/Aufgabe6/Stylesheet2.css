@@ -30,9 +30,9 @@ nav {
     margin-top: -15%;
     overflow: hidden;
     transition: 0,3s;
-    height: 3em;
+    height: 4em;
+    color: whitesmoke;
 }
-
 
 nav:hover{
     height:15em;
