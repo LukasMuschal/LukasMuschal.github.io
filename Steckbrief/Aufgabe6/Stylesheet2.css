@@ -24,6 +24,17 @@ header {
     margin-bottom: 5%;
 }
 
+.BM{
+    width: 35px;
+    height: 5px;
+    background-color: aliceblue;
+    margin: 6px 0;
+}
+
+.BM:hover{
+    transform: rotate(90dg);
+    transition: 300ms;
+}
 nav{
     margin: 0 auto;
     width: 100%;
@@ -31,6 +42,8 @@ nav{
     text-align: left;
     position: relative;
     border-bottom: 1px solid white;
+    float: left;
+    overflow: hidden;
 }
 nav ul{
     text-align: center;
