@@ -47,9 +47,6 @@ nav li{
 nav li{
     color: rgb(223, 11, 11);
 }
-nav li:hover{
-    color:darkgray;
-}
 
 nav:hover{
     height:15em;
