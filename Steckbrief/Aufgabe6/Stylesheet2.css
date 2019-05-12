@@ -151,8 +151,17 @@ footer {
 
 /*Tablet-Modus*/
 @media screen and (min-width:64em){
-    section{
-        width: 50%;
+    header{
+        width:100%;
+    }
+    main{
+        width:65%;
+    }
+    aside{
+        width:35;
+    }
+    footer{
+        width:100%
     }
 }
 
