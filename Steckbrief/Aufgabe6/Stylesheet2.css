@@ -24,6 +24,14 @@ header {
     margin-bottom: 5%;
 }
 
+nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 11em;
+    text-align: left;
+    position: relative:
+    border-bottom: 1px solid white;
+}
 nav ul{
     text-align: center;
     font-size: 1,5em;
