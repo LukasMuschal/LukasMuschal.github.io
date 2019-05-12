@@ -24,25 +24,17 @@ header {
     margin-bottom: 5%;
 }
 
-ul{
+nav ul{
     text-align: center;
     font-size: 1,5em;
     margin: 0;
     padding: 0;
     color: black;
-    overflow: hidden;
-    position: absolute;
 }
-ul:hover{
-    height:35em;
-}
- nav li{
-    color:black
+
+nav li{
     display: inline;
     padding: 2em;
-    margin: 0;
-    font-size: 1,5em;
-    text-aligin: center;
 }
 
 nav li{
@@ -51,7 +43,6 @@ nav li{
 
 nav li:hover{
     color: darkgray;
-    text-decoration-line: underline;
 }
 
 main {
