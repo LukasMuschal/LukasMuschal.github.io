@@ -163,5 +163,13 @@ footer {
         margin-left: 2%
 
     }
+    section:nth-of-type(2n+1){
+        margin-left: 2%;
+    }
+
+    section:first-of-type,section:nth-of-type(4n+1){
+        margin-left: 0%;
+        clear:both;
+    }
 }
 
