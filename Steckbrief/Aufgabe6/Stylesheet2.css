@@ -24,14 +24,14 @@ header {
     margin-bottom: 5%;
 }
 
-.BM{
+#Menü{
     width: 35px;
     height: 5px;
     background-color: aliceblue;
     margin: 6px 0;
 }
 
-.BM:hover{
+#Menü:hover{
     transform: rotate(90dg);
     transition: 300ms;
 }
