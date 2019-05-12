@@ -34,11 +34,6 @@ nav {
 }
 
 
-nav li{
-    display: inline;
-    padding: 2em;
-}
-
 nav:hover{
     height:15em;
 }
