@@ -61,7 +61,7 @@ div{
 .mi {
     width: 90px;
     height: 25px;
-    background-color: blueviolet;
+    background-color: rgb(226, 153, 43);
     margin: 12px 0;
 }
 .mi:hover{
