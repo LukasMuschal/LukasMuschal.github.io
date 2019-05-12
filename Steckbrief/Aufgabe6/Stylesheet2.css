@@ -148,3 +148,11 @@ footer {
     background: darkslategrey;
     float: left;
 }
+
+/*Tablet-Modus*/
+@media screen and (min-width:1200px){
+    section{
+        width: 50%;
+    }
+}
+
