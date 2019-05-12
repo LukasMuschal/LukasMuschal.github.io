@@ -31,7 +31,9 @@ nav ul{
     padding: 0;
     color: black;
 }
-
+nav ul:hover{
+    height:35em;
+}
 nav li{
     display: inline;
     padding: 2em;
