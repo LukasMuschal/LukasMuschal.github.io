@@ -45,7 +45,7 @@ nav{
     float: left;
     overflow: hidden;
 }
-nav ul{
+nav:hover{
     text-align: center;
     font-size: 1,5em;
     margin: 0;
@@ -53,32 +53,27 @@ nav ul{
     color: black;
 }
 
-nav ul li{
+li{
     display: inline;
     padding: 2em;
     margin: 0;
 }
 
-nav ul li a{
+ li:hover{
     color: darkgray;
     position: relative;
     padding: 0 0 0.5em 0;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
-nav ul.menu li a:hover{
+a{
     color: darkgray;
     border-bottom: 2px solid #03405f;
 }
 
-button-hover-me{
-    transition: all 2s orange;
-    padding: 2em;
-    border-radius:2em;
-    border: 1em;
-}
 main {
     width:60%;
     margin-left: 20%;
