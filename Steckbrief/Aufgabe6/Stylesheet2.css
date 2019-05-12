@@ -150,11 +150,15 @@ footer {
 }
 
 /*Tablet-Modus*/
-
+@media screen and (max-width: 64em){
+    section{
+        width:49%;
+    }
+}
 
 
    
-
+/*smartphone-Modus*/
 @media screen and (max-width: 35em){
    section{
        width:100%;
