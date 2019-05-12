@@ -150,7 +150,7 @@ footer {
 }
 
 /*Tablet-Modus*/
-@media screen and (min-width:1200px){
+@media screen and (min-width:64em){
     section{
         width: 50%;
     }
