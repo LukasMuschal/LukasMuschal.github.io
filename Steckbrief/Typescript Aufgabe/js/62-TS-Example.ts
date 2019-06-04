@@ -109,6 +109,10 @@ function monsterGenerateHTML()
     let monsterCount : number = monsterArray.length;                    // Die aktuelle Anzahl vorhandener Monster, zudem auch die neue Zahl für das Monster-Array.
     console.log("Aktuelle Anzahl an Monstern: " + monsterCount);
 
+    let Weapon : HTMLElement = document.createElement("p");
+    Weapon.innerHTML = monsterArray[monsterArray.length -1].monsterWeapon;
+    holdingDiv.appendChild(Weapon);
+
     monsterBtn.addEventListener(                                        // Füge dem Monster eine Funktion hinzu.
         'click', function() {                                           // Wird bei Maus-Click ausgelöst.
             fightMonster(monsterCount);                                 // Wenn das Monster erstellt wird erhält die Funktion einen Parameter, welcher der aktuellen Anzahl entspricht.
@@ -165,6 +169,7 @@ function generatedImage()
     let tempImage : number = getRNGNumber(Images.length);
     return tempImage;
 }
+
 
 // Wird für die Monster-Lebenspunkte aufgerufen.
 // Liefert eine variierende Zahl zurück.

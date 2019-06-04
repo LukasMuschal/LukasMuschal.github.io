@@ -73,6 +73,9 @@ function monsterGenerateHTML() {
     holdingDiv.appendChild(monsterBtn); // Füge den Button zu dem holding-div hinzu.
     let monsterCount = monsterArray.length; // Die aktuelle Anzahl vorhandener Monster, zudem auch die neue Zahl für das Monster-Array.
     console.log("Aktuelle Anzahl an Monstern: " + monsterCount);
+    let Weapon = document.createElement("p");
+    Weapon.innerHTML = monsterArray[monsterArray.length - 1].monsterWeapon;
+    holdingDiv.appendChild(Weapon);
     monsterBtn.addEventListener(// Füge dem Monster eine Funktion hinzu.
     'click', function () {
         fightMonster(monsterCount); // Wenn das Monster erstellt wird erhält die Funktion einen Parameter, welcher der aktuellen Anzahl entspricht.
