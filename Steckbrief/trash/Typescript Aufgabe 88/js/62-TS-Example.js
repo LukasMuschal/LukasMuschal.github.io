@@ -12,6 +12,7 @@ let suffix = [" der Boshaft", " des Todes", " aus der Hölle", " Der Unterwelt",
 let monsterModifers = ["Ist nervig", "Linkshänder", "Bier-Connoisseur", "Verfehlt häufig", "Prokrastiniert", "Müde", "Verwirrt", "Wasserscheu", "Bipolar", "Hat Schnupfen", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
 let monsterWeapon = ["Blick des Todes", "Kralle der Angst", "Schlag der Zerstörung", "Giftbiss", "Seuchenschleuder", "Auge des Zerstörers"];
 let Images = ["imgs/monster0.png", "imgs/monster1.png", "imgs/monster2.png", "imgs/monster3.png", "imgs/monster4.png", "imgs/monster5.png", "imgs/monster6.png"];
+let monsterAge = ["1", "2", "3", "4", "5", "6"];
 // -- Initialisierung für viele/variable Anzahl an Monster --
 let monsterArray = []; // Das Haupt-Array wurde erstellt und initialisiert!
 console.log(monsterArray); // Gebe das Monster-Array einmal zu beginn aus. Es sollte leer sein.
@@ -76,6 +77,9 @@ function monsterGenerateHTML() {
     let Weapon = document.createElement("p");
     Weapon.innerHTML = monsterArray[monsterArray.length - 1].monsterWeapon;
     holdingDiv.appendChild(Weapon);
+    let Age = document.createElement("p");
+    Age.innerHTML = monsterArray[monsterArray.length - 1].monsterAge;
+    holdingDiv.appendChild(Age);
     monsterBtn.addEventListener(// Füge dem Monster eine Funktion hinzu.
     'click', function () {
         fightMonster(monsterCount); // Wenn das Monster erstellt wird erhält die Funktion einen Parameter, welcher der aktuellen Anzahl entspricht.
@@ -110,8 +114,9 @@ function generatedMonsterWeapon() {
     return generatedMonsterWeapon;
 }
 function generateMonsterAge() {
-    let tempMonsterAge = 22 + getRNGNumber(400);
-    return tempMonsterAge;
+    let generatedMonsterAge = "";
+    generatedMonsterAge = monsterAge[getRNGNumber(monsterAge.length)];
+    return generateMonsterAge;
 }
 function generatedImage() {
     let tempImage = getRNGNumber(Images.length);
@@ -154,3 +159,4 @@ function updatePlayerLevel() {
     console.log("Spieler " + playerName + " hat nun Level " + tempLevel + " mit " + playerXP + " (" + playerXPperLevel + " pro Level)"); // Spieler-Level in der Konsole.
 }
 //# sourceMappingURL=62-TS-Example.js.map
+
