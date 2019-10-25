@@ -12,3 +12,11 @@ position: fixed;
 top: 0px;
 right: 100px;
 }
+
+a {
+    color: red;
+    background: blue;
+}
+a:hover {
+    background: yellow;
+}
