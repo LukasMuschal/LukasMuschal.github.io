@@ -6,3 +6,9 @@ section {
     width: 800px;
     margin: auto;
 }
+
+nav{
+position: fixed;
+top: 0px;
+right: 0px;
+}
