@@ -2,10 +2,6 @@ body{
     background-image: url("bg.png")
 }
 
-head{
-    font-family: sans-serif;
-    text-align: center;
-}
 
 section {
     width: 800px;
@@ -41,4 +37,12 @@ h2{
     background: orangered;
     width: 800px;
     margin: auto;
+}
+.icon {
+    width: 30px;
+    background-color: blue;
+}
+
+div{
+    text-align: center;
 }
