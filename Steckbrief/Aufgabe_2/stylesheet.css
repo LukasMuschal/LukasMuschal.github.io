@@ -28,5 +28,9 @@ body{
 h1{
     background: orangered;
     width: 800px;
-    position: absolute;
+}
+
+h2{
+    background: orangered;
+    width: 800px;
 }
