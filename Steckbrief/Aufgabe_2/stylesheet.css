@@ -26,7 +26,11 @@ body{
     font-family: sans-serif;
     text-align: center;
 }
-
+header{
+    background: orangered;
+    width: 800px;
+    margin:auto;
+}
 h1{
     background: orangered;
     width: 800px;
