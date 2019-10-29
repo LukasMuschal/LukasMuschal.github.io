@@ -2,6 +2,11 @@ body{
     background-image: url("bg.png")
 }
 
+head{
+    font-family: sans-serif;
+    text-align: center;
+}
+
 section {
     width: 800px;
     margin: auto;
