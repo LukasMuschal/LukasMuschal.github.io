@@ -28,9 +28,11 @@ body{
 h1{
     background: orangered;
     width: 800px;
+    margin: auto;
 }
 
 h2{
     background: orangered;
     width: 800px;
+    margin: auto;
 }
