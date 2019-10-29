@@ -22,8 +22,5 @@ a:hover {
 }
 body{
     font-family: sans-serif;
-}
-
-header{
-color: blanchedalmond;
+    text-align: center;
 }
