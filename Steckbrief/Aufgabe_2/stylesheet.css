@@ -14,9 +14,9 @@ right: 100px;
 }
 
 a {
-    color: red;
-    background: blue;
+    color: white;
+    background: black;
 }
 a:hover {
-    background: yellow;
+    background: orangered;
 }
