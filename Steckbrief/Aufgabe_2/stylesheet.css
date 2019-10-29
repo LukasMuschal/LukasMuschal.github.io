@@ -20,3 +20,8 @@ a {
 a:hover {
     background: orangered;
 }
+
+p{
+    font-family: sans-serif;
+    color: brown;
+}
