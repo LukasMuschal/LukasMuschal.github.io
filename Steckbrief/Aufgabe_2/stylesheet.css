@@ -5,7 +5,10 @@ body{
 
 section {
     width: 800px;
-    margin: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
     border:1px solid black;
 }
 
