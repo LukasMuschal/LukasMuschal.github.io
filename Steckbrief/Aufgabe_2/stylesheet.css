@@ -8,7 +8,7 @@ section {
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border:1px solid black;
 }
 
@@ -39,7 +39,10 @@ header{
 h2{
     background: orangered;
     width: 800px;
-    margin: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
 .icon {
     width: 30px;
