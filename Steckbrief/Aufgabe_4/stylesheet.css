@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    position: relative;
+    margin: auto;
+    top: 100px;
+    height: 500px;
+    width: 620px;
+}
+
+@media only screen and (max-width: 620px) {
+    .smartphone {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1040px) {
+    .smartphone {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .smartphone {
+        display: none;
+    }
+    .dektop {
+        display: block;
+    }
+}
+
+.desktop {
+    position: absolute;
+    top: 300px;
+}
+.smartphone {
+    position: absolute;
+    top: 320px;
+}
+
+h1 {
+    position: absolute;
+    width: 620px;
+    top: 50px;
+    text-align: center;
+    color: gray;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+p {
+    position: absolute;
+    text-align: center;
+    font-family: fantasy;
+    color: orangered;
+    font-size: medium;
+}
+
+#winsecond {
+    position: absolute;
+    left: 100px;
+    top: 225px;
+}
