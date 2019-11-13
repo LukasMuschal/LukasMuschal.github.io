@@ -92,3 +92,48 @@ a {
     top: 178px;
     left: 0px;
 }
+
+#questiontext {
+    padding-top: 38px;
+}
+#question4 {
+    left: 124px;
+    padding-top: 30px;
+    width: 400px;
+    line-height: large;
+}
+a {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: normal;
+    padding: 15px 0px;
+    text-decoration: none;
+}
+.Antwort1 {
+    position: absolute;
+    width: 620px;
+    top: 300px;
+    left: 0px;
+}
+.Antwort2 {
+    position: absolute;
+    width: 620px;
+    top: 340px;
+    left: 0px;
+}
+.Antwort3 {
+    position: absolute;
+    width: 620px;
+    top: 380px;
+    left: 0px;
+}
+.Antwort4 {
+    position: absolute;
+    width: 620px;
+    top: 420px;
+    left: 0px;
+}
+.Antwort1:hover, .Antwort2:hover, .Antwort3:hover, .Antwort4:hover {
+    background-image: url(answer_over.png);
+}
