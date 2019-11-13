@@ -73,3 +73,14 @@ p {
     left: 100px;
     top: 225px;
 }
+
+a {
+    position: absolute;
+    text-align: center;
+    font-family: fantasy;
+    color: orangered;
+    font-size: large;
+    bottom: 50px;
+    left: 0px;
+    width: 620px;
+}
