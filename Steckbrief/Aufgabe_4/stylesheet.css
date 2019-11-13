@@ -63,6 +63,8 @@ p {
     font-family: fantasy;
     color: orangered;
     font-size: medium;
+    left: 100px;
+    top: 200px;
 }
 
 #winsecond {
