@@ -84,3 +84,11 @@ a {
     left: 0px;
     width: 620px;
 }
+
+.question {
+    position: absolute;
+    width: 620px;
+    height: 125px;
+    top: 178px;
+    left: 0px;
+}
