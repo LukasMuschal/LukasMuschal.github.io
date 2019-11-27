@@ -114,7 +114,7 @@ function functionEurope(){
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((europa01-europa02)) + "kg";
     document.querySelector(".Balken").setAttribute("style", "height:15%" );
 }
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
     document.querySelector(".europe").addEventListener("click", functionEurope);
     });
 
