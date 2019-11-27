@@ -1,3 +1,11 @@
+var europa01:number = 4209.3;
+var afrika01:number = 1235.5;
+var samerika01:number = 1261.5;
+var namerika01:number = 6035.6;
+var asien01:number = 16274.1; 
+var australien01:number = 2100.5;
+var world:number = (europa01 + samerika01 + namerika01 + asien01 + australien01 + afrika01);
+
 var world:number = 33000
 
 var afrika1:string = "Afrika";

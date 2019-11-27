@@ -1,3 +1,10 @@
+var europa01 = 4209.3;
+var afrika01 = 1235.5;
+var samerika01 = 1261.5;
+var namerika01 = 6035.6;
+var asien01 = 16274.1;
+var australien01 = 2100.5;
+var world = (europa01 + samerika01 + namerika01 + asien01 + australien01 + afrika01);
 var world = 33000;
 var afrika1 = "Afrika";
 var afrika2 = "Der Emissionswert von Afrika beträgt: ";
