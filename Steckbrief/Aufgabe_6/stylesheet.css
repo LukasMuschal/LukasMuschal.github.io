@@ -23,3 +23,43 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
+
+.Balkendiagramm {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.Balken {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: white;
+}
+
+
+.europe:hover{
+    opacity: .2;
+}
+
+.northamerica:hover{
+    opacity: .2;
+}
+
+.southamerica:hover{
+    opacity: .2;
+}
+
+.africa:hover{
+    opacity: .2;
+}
+
+.asia:hover{
+    opacity: .2;
+}
+
+.australia:hover{
+    opacity: .2;
+}
