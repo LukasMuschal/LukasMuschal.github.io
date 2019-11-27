@@ -112,7 +112,7 @@ function functionEurope(){
     document.querySelector("#Vergleich").innerHTML = Math.round((europa01 / world *100)) +"%";
     document.querySelector("#Wachstumsrate").innerHTML = Math.round((100 * europa01 / europa02 -100)) +"%";
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((europa01-europa02)) + "kg";
-    document.querySelector(".Balken").setAttribute("style", "height:15%" );
+    document.querySelector(".Balken").setAttribute("style", "height:14%" );
 }
 window.addEventListener("load", function() {
     document.querySelector(".europe").addEventListener("click", functionEurope);
@@ -126,7 +126,7 @@ function functionNorthamerika(){
     document.querySelector("#Vergleich").innerHTML = Math.round((nordamerika01 / world *100)) +"%";
     document.querySelector("#Wachstumsrate").innerHTML = Math.round((100 * nordamerika01 / nordamerika02 -100)) +"%";
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((nordamerika01-nordamerika02)) + "kg";
-    document.querySelector(".Balken").setAttribute("style", "height:20%" );
+    document.querySelector(".Balken").setAttribute("style", "height:19%" );
 }
 window.addEventListener("load", function () {
     document.querySelector(".northamerica").addEventListener("click", functionNorthamerika);
@@ -140,7 +140,7 @@ function functionsouthamerica(){
     document.querySelector("#Vergleich").innerHTML = Math.round((southamerika02 / world *100)) +"%";
     document.querySelector("#Wachstumsrate").innerHTML = Math.round((100 * southamerika01 / southamerika02 -100)) +"%";
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((southamerika01-southamerika02)) + "kg";
-    document.querySelector(".Balken").setAttribute("style", "height:5%" );
+    document.querySelector(".Balken").setAttribute("style", "height:4%" );
     }
     window.addEventListener("load", function () {
     document.querySelector(".southamerica").addEventListener("click", functionsouthamerica);
@@ -154,7 +154,7 @@ function functionafrica(){
     document.querySelector("#Vergleich").innerHTML = Math.round((afrika01 / world *100)) +"%";
     document.querySelector("#Wachstumsrate").innerHTML = Math.round((100 * afrika01 / afrika02 -100)) +"%";
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((afrika01-afrika02)) + "kg";
-    document.querySelector(".Balken").setAttribute("style", "height:5%" );
+    document.querySelector(".Balken").setAttribute("style", "height:4%" );
     }
     window.addEventListener("load", function () {
     document.querySelector(".africa").addEventListener("click", functionafrica);
@@ -168,7 +168,7 @@ function functionasia(){
     document.querySelector("#Vergleich").innerHTML = Math.round((asien01 / world *100)) +"%";
     document.querySelector("#Wachstumsrate").innerHTML = Math.round((100 * asien01 / asien02 -100)) +"%";
     document.querySelector("#Wachstumswert").innerHTML =  Math.round((asien01-asien02)) + "kg";
-    document.querySelector(".Balken").setAttribute("style", "height:53%" );
+    document.querySelector(".Balken").setAttribute("style", "height:52%" );
     }
     window.addEventListener("load", function () {
     document.querySelector(".asia").addEventListener("click", functionasia);
