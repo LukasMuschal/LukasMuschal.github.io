@@ -86,11 +86,12 @@ window.addEventListener("load", function(beat){
 
 function playbeat() {
    var time = setInterval(beat,500)
-   var list = ["sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/hihat.mp3"];
+   var list: string[]= ["Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/hihat.mp3"];
    var index = 0;
 
 function beat () {
     var sound:HTMLAudioElement = new Audio (list [index]);
     sound.play();
     index++;
-    if (index>6) index=0;}
+    if (index>6) index = 0; }
+}

@@ -75,7 +75,7 @@ window.addEventListener("load", function (beat) {
 });
 function playbeat() {
     var time = setInterval(beat, 500);
-    var list = ["sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/hihat.mp3"];
+    var list = ["Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/hihat.mp3"];
     var index = 0;
     function beat() {
         var sound = new Audio(list[index]);
