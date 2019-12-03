@@ -8,4 +8,11 @@ function playSample() {
     sound.play();
 }
 
+window.addEventListener("load", function () {
+    document.querySelector("#Pad1").addEventListener("mousedown", function () { playSample("kick.mp3") });
+    
 
+function playSample(mp3assets: string) {
+    var sound: HTMLAudioElement = new Audio(mp3assets);
+    sound.play();
+}
