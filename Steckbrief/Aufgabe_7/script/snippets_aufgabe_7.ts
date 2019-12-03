@@ -80,19 +80,21 @@ function playlaugh2() {
 }
 
 //Playbeat
-window.addEventListener("load", function(){
-    document.querySelector("play").addEventListener("click", playbeat)
+window.addEventListener("load", function(beat){
+    document.querySelector("#play").addEventListener("click", playbeat)
 })
 
 function playbeat() {
-    var beat: string [] = ["sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/hihat.mp3"]
-    var index: number = 0;
-    var time: setInterval (playbeat, 500);}
+   var time = setInterval(beat,500)
+   var list = ["sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/hihat.mp3"];
+   var index = 0;
 
-    function beatplay() {
-        var sound: HTMLAudioElement = new Audio(playbeat[index]);
-        sound.play();
-        index++;
-        if (index > 6) index = 0;
-    }
-    
+function beat () {
+    var sound:HTMLAudioElement = new Audio (list [index]);
+    sound.play();
+    index+1;
+    if (index>6) index=0;
+
+}
+
+
