@@ -69,4 +69,21 @@ function playlaugh2() {
     var sound = new Audio("Sounds/laugh-2.mp3");
     sound.play();
 }
+//Playbeat
+window.addEventListener("load", function () {
+    document.querySelector("play").addEventListener("click", playbeat);
+});
+function playbeat() {
+    var beat = ["sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/kick.mp3", "sounds/kick.mp3", "sounds/snare.mp3", "sounds/hihat.mp3"];
+    var index = 0;
+    var time;
+    (playbeat, 500);
+}
+function beatplay() {
+    var sound = new Audio(playbeat[index]);
+    sound.play();
+    index++;
+    if (index > 6)
+        index = 0;
+}
 //# sourceMappingURL=snippets_aufgabe_7.js.map

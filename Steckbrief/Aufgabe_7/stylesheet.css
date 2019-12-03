@@ -72,3 +72,10 @@ button {
     left: 340px;
     top: 340px;
 }
+
+#play {
+    position: absolute;
+    top: 485px;
+    left:100px;
+
+}
