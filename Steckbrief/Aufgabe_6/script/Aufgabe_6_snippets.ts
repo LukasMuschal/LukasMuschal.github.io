@@ -162,7 +162,7 @@ function functionafrica(){
 
 
 function functionasia(){
-    document.querySelector("Alle").innerHTML = "Carbon Dioxide Emissions in Asia";
+    document.querySelector("#Alle").innerHTML = "Carbon Dioxide Emissions in Asia";
     document.querySelector("#Gesamt1").innerHTML = asien01 + "kg";
     document.querySelector("#Gesamt2").innerHTML = "Emission absolute of Asia in 2018";
     document.querySelector("#Vergleich").innerHTML = Math.round((asien01 / world *100)) +"%";
