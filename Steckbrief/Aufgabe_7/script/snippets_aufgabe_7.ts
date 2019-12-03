@@ -93,8 +93,4 @@ function beat () {
     var sound:HTMLAudioElement = new Audio (list [index]);
     sound.play();
     index++;
-    if (index>6) index=0;
-
-}
-
-
+    if (index>6) index=0;}
