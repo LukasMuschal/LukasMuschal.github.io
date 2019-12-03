@@ -1,14 +1,14 @@
 window.addEventListener("load", function () {
-    document.querySelector("#Kick").addEventListener("click", playSample);
+    document.querySelector("#Kick").addEventListener("click", playKick);
 });
-function playSample() {
+function playKick() {
     var sound = new Audio("Sounds/kick.mp3");
     sound.play();
 }
 window.addEventListener("load", function () {
-    document.querySelector("#Snare").addEventListener("click", playSample);
+    document.querySelector("#Snare").addEventListener("click", playSnare);
 });
-function playSample() {
+function playSnare() {
     var sound = new Audio("Sounds/snare.mp3");
     sound.play();
 }
