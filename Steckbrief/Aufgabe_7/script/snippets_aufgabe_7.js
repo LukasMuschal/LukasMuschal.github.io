@@ -80,7 +80,7 @@ function playbeat() {
     function beat() {
         var sound = new Audio(list[index]);
         sound.play();
-        index + 1;
+        index++;
         if (index > 6)
             index = 0;
     }
