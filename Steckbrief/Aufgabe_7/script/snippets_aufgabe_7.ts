@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
 })
 
 function playSample() {
-    var sound:HTMLAudioElement = new Audio("Aufgabe_7/script/Sounds/kick.mp3");
+    var sound:HTMLAudioElement = new Audio("Sounds/kick.mp3");
     sound.play();
 }
 
