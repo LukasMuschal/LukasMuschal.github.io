@@ -70,8 +70,8 @@ function playlaugh2() {
     sound.play();
 }
 //Playsample
-function Playsample(Playbeat) {
-    var sound = new Audio("Sounds/" + Playbeat);
+function Playsample(Playsound) {
+    var sound = new Audio("Sounds/" + Playsound);
     sound.play();
 }
 //Playbeat

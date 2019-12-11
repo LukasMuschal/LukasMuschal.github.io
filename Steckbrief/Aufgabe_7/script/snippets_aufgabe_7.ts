@@ -80,8 +80,8 @@ function playlaugh2() {
 }
 
 //Playsample
-function Playsample(Playbeat: string) {
-    var sound: HTMLAudioElement = new Audio("Sounds/"+Playbeat);
+function Playsample(Playsound: string) {
+    var sound: HTMLAudioElement = new Audio("Sounds/"+Playsound);
     sound.play();
 }
 
