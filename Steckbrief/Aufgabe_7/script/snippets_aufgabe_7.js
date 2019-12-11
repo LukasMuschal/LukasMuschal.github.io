@@ -69,6 +69,11 @@ function playlaugh2() {
     var sound = new Audio("Sounds/laugh-2.mp3");
     sound.play();
 }
+//Playsample
+function Playsample(Playbeat) {
+    var sound = new Audio("Sounds/" + Playbeat);
+    sound.play();
+}
 //Playbeat
 window.addEventListener("load", function (beat) {
     document.querySelector("#play").addEventListener("click", playbeat);

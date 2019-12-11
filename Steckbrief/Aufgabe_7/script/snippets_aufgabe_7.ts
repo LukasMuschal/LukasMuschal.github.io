@@ -79,6 +79,12 @@ function playlaugh2() {
     sound.play();
 }
 
+//Playsample
+function Playsample(Playbeat: string) {
+    var sound: HTMLAudioElement = new Audio("Sounds/"+Playbeat);
+    sound.play();
+}
+
 //Playbeat
 window.addEventListener("load", function(beat){
     document.querySelector("#play").addEventListener("click", playbeat)
