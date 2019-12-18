@@ -110,16 +110,11 @@ button {
      
   
   #playbutton { 
-      
-      height:120px;
-      width: 120px;
-      background: linear-gradient( #0b8d0b, #043613);
-      border-radius: 15%;
-      float: left;
-      margin: 16px;
-      left: 34%;
-      font-size: 70px;
-  }
+    position: absolute;
+    top: 485px;
+    left:180px;
+} 
+     
   
   #playbutton:hover {
       background: #10830c;
@@ -144,14 +139,5 @@ button {
       background: linear-gradient(top, #1dd81d, #043613);
   }               
   
-  #quelle {
-      position: absolute;
-      left: 50%;
-      bottom: -40%;
-      transform: translate(-50%, -50%);
-      margin: auto;   
-      color: white;
-  
-  }
-  
+ 
   
