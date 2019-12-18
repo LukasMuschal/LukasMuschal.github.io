@@ -92,15 +92,11 @@ button {
 
 }
   #record {
+    position: absolute;
+    top: 485px;
+    left:340px;
+    font-size: 70px;
       
-      height:120px;
-      width: 120px;
-      background: linear-gradient( #0b8d0b, #043613);
-      border-radius: 15%;
-      float: left;
-      clear: both;
-      margin: 16px;
-      font-size: 70px;
   }
   
   #record:hover {
