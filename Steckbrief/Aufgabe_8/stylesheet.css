@@ -10,7 +10,7 @@
   .bg {background-color: #15121a ;}
   
   
-  #kick {   
+  #Kick {   
       
       height:150px;
       width: 150px;
@@ -20,14 +20,14 @@
       margin: 2px;
         }
           
-  #kick:hover {
+  #Kick:hover {
       background: #231d41;
       background: linear-gradient(top, #3e4375, #28214d);
       
           }
   
   
-  #snare {   
+  #Snare {   
       
       height:150px;
       width: 150px;
@@ -37,7 +37,7 @@
       margin: 2px;
               }
                 
-  #snare:hover {
+  #Snare:hover {
       background: #231d41;
       background: linear-gradient(top, #3e4375, #28214d);
                 }
