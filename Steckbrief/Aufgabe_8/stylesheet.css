@@ -10,7 +10,7 @@
   .bg {background-color: #15121a ;}
   
   
-  #button1 {   
+  #kick {   
       
       height:150px;
       width: 150px;
@@ -20,14 +20,14 @@
       margin: 2px;
         }
           
-  #button1:hover {
+  #kick:hover {
       background: #231d41;
       background: linear-gradient(top, #3e4375, #28214d);
       
           }
   
   
-  #button2 {   
+  #snare {   
       
       height:150px;
       width: 150px;
@@ -37,13 +37,13 @@
       margin: 2px;
               }
                 
-  #button2:hover {
+  #snare:hover {
       background: #231d41;
       background: linear-gradient(top, #3e4375, #28214d);
                 }
   
   
-  #button3 {   
+  #hihat {   
       
         height:150px;
         width: 150px;
@@ -53,13 +53,13 @@
         margin: 2px;
         }
                       
-  #button3:hover {
+  #hihat:hover {
         background: #231d41;
         background: linear-gradient(top, #3e4375, #28214d);
         }            
   
   
-  #button4 {   
+  #A {   
       
           height:150px;
           width: 150px;
@@ -70,13 +70,13 @@
           margin: 2px;
           }
                         
-  #button4:hover {
+  #A:hover {
           background: #792a2a;
           background: linear-gradient(top, #c24c4c, #310e15);
           }            
   
   
-  #button5 {   
+  #C {   
       
        height:150px;
        width: 150px;
@@ -86,13 +86,13 @@
        margin: 2px;
             }
                           
-  #button5:hover {
+  #C:hover {
       background: #792a2a;
       background: linear-gradient(top, #c24c4c, #310e15);
             }            
   
   
-  #button6 {   
+  #F {   
       
       height:150px;
       width: 150px;
@@ -102,13 +102,13 @@
       margin: 2px;
                    }
                                  
-  #button6:hover {
+  #F:hover {
       background: #792a2a;
       background: linear-gradient(top, #c24c4c, #310e15);
                    }            
   
   
-  #button7 {   
+  #G {   
       
       height:150px;
       width: 150px;
@@ -119,13 +119,13 @@
       margin: 2px;
                          }
                                        
-  #button7:hover {
+  #G:hover {
       background: #792a2a;
       background: linear-gradient(top, #c24c4c, #310e15);
                          }            
   
   
-  #button8 {   
+  #laugh1 {   
       
         height:150px;
         width: 150px;
@@ -136,13 +136,13 @@
                           
                                              }
                                                            
-  #button8:hover {
+  #laugh1:hover {
         background: #773006;
         background: linear-gradient(top, #582303, #4b0e1b);
                            }            
   
   
-  #button9 {   
+  #laugh2 {   
       
         height:150px;
         width: 150px;
@@ -153,7 +153,7 @@
                                               
                                                                  }
                                                                                
-  #button9:hover {
+  #laugh2:hover {
         background: #773006;
         background: linear-gradient(top, #582303, #4b0e1b);
                   }                                     
