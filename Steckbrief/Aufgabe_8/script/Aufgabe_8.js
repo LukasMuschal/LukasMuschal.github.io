@@ -1,6 +1,6 @@
 //buttons
 window.addEventListener("load", function () {
-    document.querySelector("#kick").addEventListener("click", function () { PlaySample("sounds/kick.mp3"); });
+    document.querySelector("#kick").addEventListener("click", function () { PlaySample("kick.mp3"); });
     document.querySelector("#snare").addEventListener("click", function () { PlaySample("snare.mp3"); });
     document.querySelector("#hihat").addEventListener("click", function () { PlaySample("hihat.mp3"); });
     document.querySelector("#A").addEventListener("click", function () { PlaySample("A.mp3"); });
