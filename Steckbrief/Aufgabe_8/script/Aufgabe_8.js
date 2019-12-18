@@ -19,7 +19,7 @@ var array1 = ["kick.mp3", "kick.mp3", "snare.mp3", "kick.mp3", "hihat.mp3", "kic
 var interval;
 var record = false;
 function PlaySample(tone) {
-    var sound = new Audio("./assets/" + tone);
+    var sound = new Audio("./Sounds/" + tone);
     sound.play();
     if (record == true) {
         array1.push(tone);

@@ -27,7 +27,7 @@ var interval: number ;
 var record: boolean = false;
 
 function PlaySample(tone: string): void {
-  var sound: HTMLAudioElement = new Audio("./assets/" + tone);
+  var sound: HTMLAudioElement = new Audio("./Sounds/" + tone);
   sound.play();
   if (record == true) {
     array1.push(tone);
