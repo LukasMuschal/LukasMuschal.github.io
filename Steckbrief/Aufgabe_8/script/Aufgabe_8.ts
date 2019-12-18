@@ -1,6 +1,6 @@
 //buttons
 window.addEventListener("load", function (): void {
-  document.querySelector("#kick").addEventListener("click", function (): void { PlaySample("Sounds/kick.mp3"); });
+  document.querySelector("#kick").addEventListener("click", function (): void { PlaySample("kick.mp3"); });
   document.querySelector("#snare").addEventListener("click", function (): void { PlaySample("Sounds/snare.mp3"); });
   document.querySelector("#hihat").addEventListener("click", function (): void { PlaySample("Sounds/hihat.mp3"); });
   document.querySelector("#A").addEventListener("click", function (): void { PlaySample("Sounds/A.mp3"); });
@@ -8,7 +8,7 @@ window.addEventListener("load", function (): void {
   document.querySelector("#F").addEventListener("click", function (): void { PlaySample("Sounds/F.mp3"); });
   document.querySelector("#G").addEventListener("click", function (): void { PlaySample("Sounds/G.mp3"); });
   document.querySelector("#laugh1").addEventListener("click", function (): void { PlaySample("Sounds/laugh-1.mp3"); });
-  document.querySelector("#laugh2").addEventListener("click", function (): void { PlaySample("Sounds/laugh-2.mp3"); });
+  document.querySelector("#laugh2").addEventListener("click", function (): void { PlaySample("laugh-2.mp3"); });
 
 
   document.querySelector("#playbutton").addEventListener("click", PlayBeat);
