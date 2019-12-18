@@ -69,14 +69,26 @@ function playlaugh2() {
     var sound = new Audio("Sounds/laugh-2.mp3");
     sound.play();
 }
+var list = ["Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/hihat.mp3"];
 //Playsample
-function Playsample(Playsound) {
-    var sound = new Audio("Sounds/" + Playsound);
+var interval;
+var record = false;
+function Playsample(tone) {
+    var sound = new Audio("Sounds/" + tone);
     sound.play();
+    if (record == true) {
+        list.push(tone);
+    }
 }
 //Playbeat
 window.addEventListener("load", function (beat) {
     document.querySelector("#playbutton").addEventListener("click", playbeat);
+});
+window.addEventListener("load", function (beat) {
+    document.querySelector("#record").addEventListener("click", RecordBeat);
+});
+window.addEventListener("load", function (beat) {
+    document.querySelector("#erase").addEventListener("click", EraseBeat);
 });
 function playbeat() {
     var time = setInterval(beat, 500);
@@ -94,7 +106,7 @@ function playbeat() {
 if (document.getElementById("playbutton").classList.contains("fa-play")) {
     document.getElementById("playbutton").classList.remove("fa-play");
     document.getElementById("playbutton").classList.add("fa-stop");
-    interval = setInterval(myBeat, 250);
+    interval = setInterval(playbeat, 500);
     record = false;
     console.log("Play");
     //Stop
@@ -107,11 +119,11 @@ else {
 }
 //Beat
 function myBeat() {
-    PlaySample(array1[index]);
+    PlaySample(list[index]);
     index += 1;
-    if (index > (array1.length - 1))
+    if (index > (list.length - 1))
         index = 0;
-    console.log(array1[index]);
+    console.log(list[index]);
 }
 //Record
 function RecordBeat() {
@@ -119,6 +131,6 @@ function RecordBeat() {
 }
 //Erase
 function EraseBeat() {
-    array1.length = 0;
+    list.length = 0;
 }
 //# sourceMappingURL=Aufgabe_8.js.map

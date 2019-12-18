@@ -79,15 +79,31 @@ function playlaugh2() {
     sound.play();
 }
 
+
+var list: string[]= ["Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/kick.mp3", "Sounds/kick.mp3", "Sounds/snare.mp3", "Sounds/hihat.mp3"];
 //Playsample
-function Playsample(Playsound: string) {
-    var sound: HTMLAudioElement = new Audio("Sounds/"+Playsound);
+var interval:number;
+var record: boolean = false;
+
+function Playsample(tone: string):void {
+    var sound: HTMLAudioElement = new Audio("Sounds/"+tone);
     sound.play();
+    if (record==true) {
+        list.push(tone);
+    }
 }
 
 //Playbeat
 window.addEventListener("load", function(beat){
     document.querySelector("#playbutton").addEventListener("click", playbeat)
+})
+
+window.addEventListener("load", function(beat){
+    document.querySelector("#record").addEventListener("click", RecordBeat)
+})
+
+window.addEventListener("load", function(beat){
+    document.querySelector("#erase").addEventListener("click", EraseBeat)
 })
 
 function playbeat() {
@@ -110,7 +126,7 @@ function beat () {
   if ( document.getElementById("playbutton").classList.contains("fa-play") ) {
       document.getElementById("playbutton").classList.remove("fa-play");
       document.getElementById("playbutton").classList.add("fa-stop");
-      interval = setInterval(myBeat, 250);
+      interval = setInterval(playbeat, 500);
       record = false;
       console.log("Play");
 
@@ -124,10 +140,10 @@ function beat () {
 
 //Beat
   function myBeat (): void {
-      PlaySample(array1 [index]);
+      PlaySample(list [index]);
       index += 1;
-      if (index > (array1.length - 1)) index = 0;
-      console.log(array1 [index] );
+      if (index > (list.length - 1)) index = 0;
+      console.log(list [index] );
   }
 }
 
@@ -138,5 +154,5 @@ function RecordBeat (): void {
 
 //Erase
 function EraseBeat (): void {
-  array1.length = 0;
+  list.length = 0;
 }
