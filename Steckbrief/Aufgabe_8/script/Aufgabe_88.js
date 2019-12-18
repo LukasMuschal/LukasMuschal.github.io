@@ -60,4 +60,4 @@ function RecordBeat() {
 function EraseBeat() {
     array1.length = 0;
 }
-//# sourceMappingURL=Aufgabe_8.js.map
+//# sourceMappingURL=Aufgabe_88.js.map
