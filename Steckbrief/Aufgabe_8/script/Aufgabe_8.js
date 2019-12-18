@@ -118,13 +118,6 @@ else {
     console.log("Pause");
 }
 //Beat
-function myBeat() {
-    PlaySample(list[index]);
-    index += 1;
-    if (index > (list.length - 1))
-        index = 0;
-    console.log(list[index]);
-}
 //Record
 function RecordBeat() {
     record = true;

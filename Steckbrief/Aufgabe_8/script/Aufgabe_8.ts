@@ -139,14 +139,7 @@ function beat () {
   }
 
 //Beat
-  function myBeat (): void {
-      PlaySample(list [index]);
-      index += 1;
-      if (index > (list.length - 1)) index = 0;
-      console.log(list [index] );
-  }
-}
-
+ 
 //Record
 function RecordBeat (): void {
   record = true;
