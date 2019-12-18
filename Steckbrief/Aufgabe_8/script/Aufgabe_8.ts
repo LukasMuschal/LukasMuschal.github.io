@@ -1,6 +1,6 @@
 //buttons
 window.addEventListener("load", function (): void {
-  document.querySelector("#kick").addEventListener("click", function (): void { PlaySample("kick.mp3"); });
+  document.querySelector("#kick").addEventListener("click", function (): void { PlaySample("sounds/kick.mp3"); });
   document.querySelector("#snare").addEventListener("click", function (): void { PlaySample("snare.mp3"); });
   document.querySelector("#hihat").addEventListener("click", function (): void { PlaySample("hihat.mp3"); });
   document.querySelector("#A").addEventListener("click", function (): void { PlaySample("A.mp3"); });
