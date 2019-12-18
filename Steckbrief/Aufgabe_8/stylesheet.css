@@ -10,155 +10,87 @@
   .bg {background-color: #15121a ;}
   
   
-  #Kick {   
-      
-      height:150px;
-      width: 150px;
-      background: linear-gradient( #3e4375, #15172b );
-      border-radius: 15%;
-      float: left;
-      margin: 2px;
-        }
-          
-  #Kick:hover {
-      background: #231d41;
-      background: linear-gradient(top, #3e4375, #28214d);
-      
-          }
-  
-  
-  #Snare {   
-      
-      height:150px;
-      width: 150px;
-      background: linear-gradient( #3e4375, #15172b );
-      border-radius: 15%;
-      float: left;
-      margin: 2px;
-              }
-                
-  #Snare:hover {
-      background: #231d41;
-      background: linear-gradient(top, #3e4375, #28214d);
-                }
-  
-  
-  #hihat {   
-      
-        height:150px;
-        width: 150px;
-        background: linear-gradient( #3e4375, #15172b );
-        border-radius: 15%;
-        float: left;
-        margin: 2px;
-        }
-                      
-  #hihat:hover {
-        background: #231d41;
-        background: linear-gradient(top, #3e4375, #28214d);
-        }            
-  
-  
-  #A {   
-      
-          height:150px;
-          width: 150px;
-          background: linear-gradient( #a72e2e, #471010 );
-          border-radius: 15%;
-          float: left;
-          clear: both;
-          margin: 2px;
-          }
-                        
-  #A:hover {
-          background: #792a2a;
-          background: linear-gradient(top, #c24c4c, #310e15);
-          }            
-  
-  
-  #C {   
-      
-       height:150px;
-       width: 150px;
-       background: linear-gradient( #a72e2e, #471010);
-       border-radius: 15%;
-       float: left;
-       margin: 2px;
-            }
-                          
-  #C:hover {
-      background: #792a2a;
-      background: linear-gradient(top, #c24c4c, #310e15);
-            }            
-  
-  
-  #F {   
-      
-      height:150px;
-      width: 150px;
-      background: linear-gradient( #a72e2e, #471010);
-      border-radius: 15%;
-      float: left;
-      margin: 2px;
-                   }
-                                 
-  #F:hover {
-      background: #792a2a;
-      background: linear-gradient(top, #c24c4c, #310e15);
-                   }            
-  
-  
-  #G {   
-      
-      height:150px;
-      width: 150px;
-      background: linear-gradient( #a72e2e, #471010);
-      border-radius: 15%;
-      float: left;
-      clear: both;
-      margin: 2px;
-                         }
-                                       
-  #G:hover {
-      background: #792a2a;
-      background: linear-gradient(top, #c24c4c, #310e15);
-                         }            
-  
-  
-  #laugh1 {   
-      
-        height:150px;
-        width: 150px;
-        background: linear-gradient( #dd4b11, #811a1a);
-        border-radius: 15%;
-        float: left;
-        margin: 2px;
-                          
-                                             }
-                                                           
-  #laugh1:hover {
-        background: #773006;
-        background: linear-gradient(top, #582303, #4b0e1b);
-                           }            
-  
-  
-  #laugh2 {   
-      
-        height:150px;
-        width: 150px;
-        background: linear-gradient( #dd4b11, #811a1a);
-        border-radius: 15%;
-        float: left;
-        margin: 2px;
-                                              
-                                                                 }
-                                                                               
-  #laugh2:hover {
-        background: #773006;
-        background: linear-gradient(top, #582303, #4b0e1b);
-                  }                                     
-  
-  
+  html, body {
+    color:gray;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    overflow: scroll;
+}
+div {
+    position: relative;
+    margin: auto;
+    width: 510px;
+    height: 630px;
+    background-color: black;
+}
+button {
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+#Kick {
+    background-color:green;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#Snare {
+    background-color:green;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+#hihat {
+    background-color:green;
+    position: absolute;
+    left: 340px;
+    top: 20px;
+}
+#A {
+    background-color: magenta;
+    position: absolute;
+    left: 20px;
+    top: 180px;
+}
+#C {
+    background-color: magenta;
+    position: absolute;
+    left: 180px;
+    top: 180px;
+}
+#F {
+    background-color: magenta;
+    position: absolute;
+    left: 340px;
+    top: 180px;
+}
+#G {
+    background-color: magenta;
+    position: absolute;
+    left: 20px;
+    top: 340px;
+}
+#laugh1 {
+    background-color: orangered;
+    position: absolute;
+    left: 180px;
+    top: 340px;
+}
+#laugh2 {
+    background-color: orangered;
+    position: absolute;
+    left: 340px;
+    top: 340px;
+}
+
+#play {
+    position: absolute;
+    top: 485px;
+    left:180px;
+
+}
   #record {
       
       height:120px;
