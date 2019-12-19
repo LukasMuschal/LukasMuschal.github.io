@@ -19,68 +19,53 @@
         position: absolute; 
     }
 .button1{
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    border-radius: 5px;
-    margin: 1px; 
-    border: none; 
-    
-    
-
- 
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #3e4375, #15172b );
+    border-radius: 15%;
+    float: left;
+    margin: 2px;
 }
 .button2 {
-
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #3e4375, #15172b );
+    border-radius: 15%;
+    float: left;
+    margin: 2px;
 }
 .button3 {
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-   
-   
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #3e4375, #15172b );
+    border-radius: 15%;
+    float: left;
+    margin: 2px;
 }
 .button4 {
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
- 
-
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #a72e2e, #471010 );
+    border-radius: 15%;
+    float: left;
+    clear: both;
+    margin: 2px;
 }
-.button5 {
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-  
+.button5 {  
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #a72e2e, #471010);
+    border-radius: 15%;
+    float: left;
+    margin: 2px;
 }
 .button6 {
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-   
-
+    height:150px;
+    width: 150px;
+    background: linear-gradient( #a72e2e, #471010);
+    border-radius: 15%;
+    float: left;
+    margin: 2px;
 }
 .button7 {
     background-image: linear-gradient(#DC143C,#f00);
