@@ -1,9 +1,9 @@
-var playbutton = ["assets/F.mp3", "assets/G.mp3", "assets/snare.mp3"];
+var playbutton = ["kick.mp3", "kick.mp3", "snare.mp3"];
 var intervalloop;
 var record = false;
 window.addEventListener("load", function () {
-    document.querySelector(".button1").addEventListener("mousedown", function () { playSample("assets/kick.mp3"); });
-    document.querySelector(".button2").addEventListener("mousedown", function () { playSample("assets/snare.mp3"); });
+    document.querySelector(".button1").addEventListener("mousedown", function () { playSample("kick.mp3"); });
+    document.querySelector(".button2").addEventListener("mousedown", function () { playSample("snare.mp3"); });
     document.querySelector(".button3").addEventListener("mousedown", function () { playSample("hihat.mp3"); });
     document.querySelector(".button4").addEventListener("mousedown", function () { playSample("F.mp3"); });
     document.querySelector(".button5").addEventListener("mousedown", function () { playSample("G.mp3"); });
