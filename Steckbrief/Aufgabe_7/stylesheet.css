@@ -30,7 +30,6 @@
     width: 150px;
     background: linear-gradient( #3e4375, #15172b );
     border-radius: 15%;
-    float: left;
     margin: 2px;
 }
 .button3 {
@@ -38,7 +37,6 @@
     width: 150px;
     background: linear-gradient( #3e4375, #15172b );
     border-radius: 15%;
-    float: left;
     margin: 2px;
 }
 .button4 {
@@ -46,7 +44,6 @@
     width: 150px;
     background: linear-gradient( #a72e2e, #471010 );
     border-radius: 15%;
-    float: left;
     clear: both;
     margin: 2px;
 }
@@ -55,7 +52,6 @@
     width: 150px;
     background: linear-gradient( #a72e2e, #471010);
     border-radius: 15%;
-    float: left;
     margin: 2px;
 }
 .button6 {
@@ -63,7 +59,6 @@
     width: 150px;
     background: linear-gradient( #a72e2e, #471010);
     border-radius: 15%;
-    float: left;
     margin: 2px;
 }
 .button7 {
@@ -71,7 +66,6 @@
     width: 150px;
     background: linear-gradient( #a72e2e, #471010);
     border-radius: 15%;
-    float: left;
     clear: both;
     margin: 2px;
 }
@@ -80,7 +74,6 @@
       width: 150px;
       background: linear-gradient( #dd4b11, #811a1a);
       border-radius: 15%;
-      float: left;
       margin: 2px;
 }
 .button9 {
@@ -88,7 +81,6 @@
     width: 150px;
     background: linear-gradient( #dd4b11, #811a1a);
     border-radius: 15%;
-    float: left;
     margin: 2px;
 }
 
