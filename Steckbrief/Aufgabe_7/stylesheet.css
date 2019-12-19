@@ -5,22 +5,13 @@ html, body {
     padding: 0;
     overflow: scroll;
 }
-.main{
-    margin-left: auto; 
-    margin-right: auto; 
-    transform: translate(-50%, -50%);
-    width: 480px; 
-    left: 50%;
-    top: 40%;
-    text-align: center;
-    overflow: hidden;
-    width: 480px; 
-    position: absolute; 
-
-    
+#order{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 462px;
 
 }
-
 button {
     height: 150px;
     width: 150px;
