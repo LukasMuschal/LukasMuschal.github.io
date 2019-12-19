@@ -14,85 +14,132 @@
         width: 245px;
     }
     
-    .button1 {
-        left: 0px;
+    .button1{
+        position: absolute; 
+        left: 10px;
         top: 0px;
-        background-color:#1E90FF;
-        border-color:  	#1E90FF;
-        position: absolute;
-    }
+        background-image: linear-gradient(green,#00F);
+        height: 150px;
+        width: 150px; 
+        border-radius: 5px;
+        margin: 1px; 
+        border: none; 
+        
+        
     
+     
+    }
     .button2 {
-        left: 155px;
+        position: absolute; 
+        left: 165px;
         top: 0px;
-        background-color:#1E90FF;
-        border-color:  	#1E90FF;
-        position: absolute;
-    }
+        background-image: linear-gradient(green,#00F);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     
+    
+    }
     .button3 {
-        left: 310px;
+        position: absolute; 
+        left: 320px;
         top: 0px;
-        background-color:#1E90FF;
-        border-color:  	#1E90FF;
-        position: absolute;
+        background-image: linear-gradient(green,#00F);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
+       
+       
     }
     .button4 {
-        left: 0px;
+        position: absolute; 
+        left: 10px;
         top: 155px;
-        background-color: #FF1493;
-        border-color: #FF1493;
-        position: absolute;
-    }
+        background-image: linear-gradient(magenta,#f00);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
+     
     
+    }
     .button5 {
-        left: 155px;
+        position: absolute; 
+        left: 165px;
         top: 155px;
-        background-color: #FF1493;
-        border-color: #FF1493;
-        position: absolute;
-    }
+        background-image: linear-gradient(magenta,#f00);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     
+      
+    }
     .button6 {
-        left: 310px;
+        position: absolute; 
+        left: 320px;
         top: 155px;
-        background-color: #FF1493;
-        border-color: #FF1493;
-        position: absolute;
-    }
+        background-image: linear-gradient(magenta,#f00);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     
+       
+    
+    }
     .button7 {
-        left: 0px;
+        position: absolute; 
+        left: 10px;
         top: 310px;
-        background-color: #FF1493;
-        border-color: #FF1493;
-        position: absolute;
-    }
+        background-image: linear-gradient(magenta,#f00);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     
+    
+    
+    }
     .button8 {
-        left: 155px;
+        position: absolute; 
+        left: 165px;
         top: 310px;
-        background-color: #FF8C00;
-        border-color: #FF8C00;
-        position: absolute;
-    }
+        background-image:linear-gradient(orange, red);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     
+    
+    }
     .button9 {
-        left: 310px;
+        position: absolute; 
+        left: 320px;
         top: 310px;
-        background-color: #FF8C00;
-        border-color: #FF8C00;
-        position: absolute;
+        background-image:linear-gradient(orange, red);
+        height: 150px;
+        width: 150px; 
+        margin: 1px; 
+        border-radius: 5px;
+        border: none; 
     }
-    
-    
-    .playButton {
-        position: absolute;
-        left: 80px;
-        top: 460px;
+    #play {
+        position: absolute; 
+        left: 55px; 
+        top: 480px;;
+        color: white; 
+        font-size: 50px; 
     }
-    
-    .playButton:hover {
-        transform: scale(1.1);
+    #play:hover{
+        color: firebrick;
     }
-    
