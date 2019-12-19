@@ -15,77 +15,133 @@ body {
 }
 
 .button1{
-    
-        color:green;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-    }
+    position: absolute; 
+    left: 10px;
+    top: 0px;
+    background-image: linear-gradient(green,#00F);
+    height: 150px;
+    width: 150px; 
+    border-radius: 5px;
+    margin: 1px; 
+    border: none; 
     
     
 
-
+ 
+}
 .button2 {
-        background-color:green;
-        position: absolute;
-        left: 180px;
-        top: 20px;
-    }
+    position: absolute; 
+    left: 165px;
+    top: 0px;
+    background-image: linear-gradient(green,#00F);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
 
 
-
+}
 .button3 {
-    background-color:green;
-    position: absolute;
-    left: 340px;
-    top: 20px;
+    position: absolute; 
+    left: 320px;
+    top: 0px;
+    background-image: linear-gradient(green,#00F);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
    
    
 }
 .button4 {
-    background-color: magenta;
-    position: absolute;
-    left: 20px;
-    top: 180px;
+    position: absolute; 
+    left: 10px;
+    top: 155px;
+    background-image: linear-gradient(magenta,#f00);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
  
 
 }
 .button5 {
-    background-color: magenta;
-    position: absolute;
-    left: 180px;
-    top: 180px;
+    position: absolute; 
+    left: 165px;
+    top: 155px;
+    background-image: linear-gradient(magenta,#f00);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
+
+  
 }
 .button6 {
-    background-color: magenta;
-    position: absolute;
-    left: 340px;
-    top: 180px;
+    position: absolute; 
+    left: 320px;
+    top: 155px;
+    background-image: linear-gradient(magenta,#f00);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
+
+   
+
 }
 .button7 {
-    background-color: magenta;
-    position: absolute;
-    left: 20px;
-    top: 340px;
+    position: absolute; 
+    left: 10px;
+    top: 310px;
+    background-image: linear-gradient(magenta,#f00);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
+
+
+
 }
 .button8 {
-    background-color: orangered;
-    position: absolute;
-    left: 180px;
-    top: 340px;
+    position: absolute; 
+    left: 165px;
+    top: 310px;
+    background-image:linear-gradient(orange, #ff7c11);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
+
+
 }
 .button9 {
-    background-color: orangered;
-    position: absolute;
-    left: 340px;
-    top: 340px;
+    position: absolute; 
+    left: 320px;
+    top: 310px;
+    background-image:linear-gradient(orange, #ff7c11);
+    height: 150px;
+    width: 150px; 
+    margin: 1px; 
+    border-radius: 5px;
+    border: none; 
+   
+
 }
 
 #play {
-    position: absolute;
-    top: 485px;
-    left:180px;
-    font-size: 70px;
+    position: absolute; 
+    left: 55px; 
+    top: 480px;;
+    color: white; 
+    font-size: 50px; 
 }
 #play:hover{
     color: firebrick;
@@ -93,24 +149,25 @@ body {
 
 #microphone {
 
-    position: absolute;
-    top: 485px;
-    left:340px;
-    font-size: 70px;
-      
+    position: absolute; 
+    left: 230px; 
+    top: 480px;
+    color: white; 
+    font-size: 50px; 
 }
 #microphone:hover {
-    color:firebrick;
+    color: firebrick;
 }
 #trash {
 
-    position: absolute;
-    top: 485px;
-    left:20px;
-    font-size: 70px;
+    position:  absolute; 
+    left: 370px; 
+    top: 480px;
+    color: white; 
+    font-size: 50px; 
    
 }
 
 #trash:hover {
-    color:firebrick;
+    color: firebrick;
 }
