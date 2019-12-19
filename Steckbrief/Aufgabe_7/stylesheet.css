@@ -11,6 +11,7 @@
         margin-right: auto; 
         transform: translate(-50%, -50%);
         width: 250px; 
+        border-color: cornsilk;
          }
     .button1{
         position: absolute; 
