@@ -136,14 +136,14 @@ body {
 
 }
 
-.PlayButton {
+#play {
     position: absolute; 
     left: 55px; 
     top: 480px;;
     color: white; 
     font-size: 50px; 
 }
-.PlayButton{
+#play{
     color: firebrick;
 }
 
