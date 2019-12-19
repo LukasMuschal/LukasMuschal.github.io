@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-    document.querySelector(".button1").addEventListener("mousedown", function () { playsample("kick.mp3"); });
+    document.querySelector("#button1").addEventListener("mousedown", function () { playsample("kick.mp3"); });
     document.querySelector(".button2").addEventListener("mousedown", function () { playsample("snare.mp3"); });
     document.querySelector(".button3").addEventListener("mousedown", function () { playsample("hihat.mp3"); });
     document.querySelector(".button4").addEventListener("mousedown", function () { playsample("F.mp3"); });
