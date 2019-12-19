@@ -29,14 +29,14 @@ function PlaySong() {
     if (document.getElementById("play").classList.contains("fa-play")) {
         document.getElementById("play").classList.remove("fa-play");
         document.getElementById("play").classList.add("fa-stop");
-        intervalloop = setInterval(Christmas, 400);
+        intervalloop = setInterval(Beat, 200);
     }
     else {
         document.getElementById("play").classList.remove("fa-stop");
         document.getElementById("play").classList.add("fa-play");
         clearInterval(intervalloop);
     }
-    function Christmas() {
+    function Beat() {
         playSample(playbutton[index]);
         index += 1;
         if (index >= playbutton.length) {
