@@ -9,7 +9,7 @@ window.addEventListener("load",function(){
     document.querySelector(".button7").addEventListener("mousedown", function(){playsample("C.mp3");});;
     document.querySelector(".button8").addEventListener("mousedown", function(){playsample("laugh-1.mp3");});;
     document.querySelector(".button9").addEventListener("mousedown", function(){playsample("laugh-2.mp3");});;
-    document.querySelector(".PlayButton").addEventListener("click", PlaySong);
+    document.querySelector(".PlayButton").addEventListener("click", playbeat);
 }); 
 
 function playsample(myMP3: string) {
