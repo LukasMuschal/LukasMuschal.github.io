@@ -1,11 +1,11 @@
-var playbutton: string[] = [ "F.mp3", "G.mp3", "snare.mp3"];
+var playbutton: string[] = [ "assets/F.mp3", "assets/G.mp3", "assets/snare.mp3"];
 var intervalloop: number;
 var record: boolean = false;
 
 window.addEventListener("load", function (): void {
 
-    document.querySelector(".button1").addEventListener("mousedown", function (): void { playSample("kick.mp3"); });
-    document.querySelector(".button2").addEventListener("mousedown", function (): void { playSample("snare.mp3"); });
+    document.querySelector(".button1").addEventListener("mousedown", function (): void { playSample("assets/kick.mp3"); });
+    document.querySelector(".button2").addEventListener("mousedown", function (): void { playSample("assets/snare.mp3"); });
     document.querySelector(".button3").addEventListener("mousedown", function (): void { playSample("hihat.mp3"); });
     document.querySelector(".button4").addEventListener("mousedown", function (): void { playSample("F.mp3"); });
     document.querySelector(".button5").addEventListener("mousedown", function (): void { playSample("G.mp3"); });
