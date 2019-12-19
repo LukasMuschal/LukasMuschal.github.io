@@ -1,5 +1,5 @@
 body {
-    background: black; 
+    background:gray; 
     text-align: center;
     overflow: hidden;
     
@@ -15,159 +15,102 @@ body {
 }
 
 .button1{
-    position: absolute; 
-    left: 10px;
-    top: 0px;
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    border-radius: 5px;
-    margin: 1px; 
-    border: none; 
+    
+        background-color:green;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
     
     
 
- 
-}
+
 .button2 {
-    position: absolute; 
-    left: 165px;
-    top: 0px;
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
+        background-color:green;
+        position: absolute;
+        left: 180px;
+        top: 20px;
+    }
 
 
-}
+
 .button3 {
-    position: absolute; 
-    left: 320px;
-    top: 0px;
-    background-image: linear-gradient(#4169D1,#00F);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
+    background-color:green;
+    position: absolute;
+    left: 340px;
+    top: 20px;
    
    
 }
 .button4 {
-    position: absolute; 
-    left: 10px;
-    top: 155px;
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
+    background-color: magenta;
+    position: absolute;
+    left: 20px;
+    top: 180px;
  
 
 }
 .button5 {
-    position: absolute; 
-    left: 165px;
-    top: 155px;
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-  
+    background-color: magenta;
+    position: absolute;
+    left: 180px;
+    top: 180px;
 }
 .button6 {
-    position: absolute; 
-    left: 320px;
-    top: 155px;
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-   
-
+    background-color: magenta;
+    position: absolute;
+    left: 340px;
+    top: 180px;
 }
 .button7 {
-    position: absolute; 
-    left: 10px;
-    top: 310px;
-    background-image: linear-gradient(#DC143C,#f00);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-
-
+    background-color: magenta;
+    position: absolute;
+    left: 20px;
+    top: 340px;
 }
 .button8 {
-    position: absolute; 
-    left: 165px;
-    top: 310px;
-    background-image:linear-gradient(#FF8C00, #ff7c11);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-
-
+    background-color: orangered;
+    position: absolute;
+    left: 180px;
+    top: 340px;
 }
 .button9 {
-    position: absolute; 
-    left: 320px;
-    top: 310px;
-    background-image:linear-gradient(#FF8C00, #ff7c11);
-    height: 150px;
-    width: 150px; 
-    margin: 1px; 
-    border-radius: 5px;
-    border: none; 
-   
-
+    background-color: orangered;
+    position: absolute;
+    left: 340px;
+    top: 340px;
 }
 
 #play {
-    position: absolute; 
-    left: 55px; 
-    top: 480px;;
-    color: white; 
-    font-size: 50px; 
+    position: absolute;
+    top: 485px;
+    left:180px;
+    font-size: 70px;
 }
 #play:hover{
-    color: #DC143C;
+    color: firebrick;
 }
 
 #microphone {
 
-    position: absolute; 
-    left: 230px; 
-    top: 480px;
-    color: white; 
-    font-size: 50px; 
+    position: absolute;
+    top: 485px;
+    left:340px;
+    font-size: 70px;
+      
 }
 #microphone:hover {
-    color: #4169D1;
+    color:firebrick;
 }
 #trash {
 
-    position:  absolute; 
-    left: 370px; 
-    top: 480px;
-    color: white; 
-    font-size: 50px; 
+    position: absolute;
+    top: 485px;
+    left:20px;
+    font-size: 70px;
    
 }
 
 #trash:hover {
-    color: #FF8C10;
+    color:firebrick;
 }
