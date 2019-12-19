@@ -5,17 +5,21 @@ html, body {
     padding: 0;
     overflow: scroll;
 }
-#order { position: absolute;
-    left: 50%;
-    top: 70%;
+.main{
+    margin-left: auto; 
+    margin-right: auto; 
     transform: translate(-50%, -50%);
-    margin: auto;   
-  
-  
-  }
-  
-  .bb {background-color: #15121a ;}
-  
+    width: 480px; 
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    overflow: hidden;
+    width: 480px; 
+    position: absolute; 
+
+    
+
+}
 
 button {
     height: 150px;
