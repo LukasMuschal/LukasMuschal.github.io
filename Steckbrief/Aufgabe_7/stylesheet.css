@@ -6,86 +6,93 @@
         
     
     }
- #order{
-        margin-left: auto; 
-        margin-right: auto; 
+    #center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
         transform: translate(-50%, -50%);
-        width: 480px; 
-        left: 50%;
-        top: 40%;
-        text-align: center;
-        overflow: hidden;
-        width: 480px; 
-        position: absolute; 
+        width: 245px;
     }
-.button1{
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #3e4375, #15172b );
-    border-radius: 15%;
-    margin: 2px;
-}
-.button2 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #3e4375, #15172b );
-    border-radius: 15%;
-    margin: 2px;
-}
-.button3 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #3e4375, #15172b );
-    border-radius: 15%;
-    margin: 2px;
-}
-.button4 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #a72e2e, #471010 );
-    border-radius: 15%;
-    clear: both;
-    margin: 2px;
-}
-.button5 {  
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #a72e2e, #471010);
-    border-radius: 15%;
-    margin: 2px;
-}
-.button6 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #a72e2e, #471010);
-    border-radius: 15%;
-    margin: 2px;
-}
-.button7 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #a72e2e, #471010);
-    border-radius: 15%;
-    clear: both;
-    margin: 2px;
-}
-.button8 {
-    height:150px;
-      width: 150px;
-      background: linear-gradient( #dd4b11, #811a1a);
-      border-radius: 15%;
-      margin: 2px;
-}
-.button9 {
-    height:150px;
-    width: 150px;
-    background: linear-gradient( #dd4b11, #811a1a);
-    border-radius: 15%;
-    margin: 2px;
-}
-
-.PlayButton {
-    position: fixed; 
-    left: 45%; 
-    top: 70%;
-}
+    
+    .button1 {
+        left: 0px;
+        top: 0px;
+        background-color:#1E90FF;
+        border-color:  	#1E90FF;
+        position: absolute;
+    }
+    
+    .button2 {
+        left: 155px;
+        top: 0px;
+        background-color:#1E90FF;
+        border-color:  	#1E90FF;
+        position: absolute;
+    }
+    
+    .button3 {
+        left: 310px;
+        top: 0px;
+        background-color:#1E90FF;
+        border-color:  	#1E90FF;
+        position: absolute;
+    }
+    .button4 {
+        left: 0px;
+        top: 155px;
+        background-color: #FF1493;
+        border-color: #FF1493;
+        position: absolute;
+    }
+    
+    .button5 {
+        left: 155px;
+        top: 155px;
+        background-color: #FF1493;
+        border-color: #FF1493;
+        position: absolute;
+    }
+    
+    .button6 {
+        left: 310px;
+        top: 155px;
+        background-color: #FF1493;
+        border-color: #FF1493;
+        position: absolute;
+    }
+    
+    .button7 {
+        left: 0px;
+        top: 310px;
+        background-color: #FF1493;
+        border-color: #FF1493;
+        position: absolute;
+    }
+    
+    .button8 {
+        left: 155px;
+        top: 310px;
+        background-color: #FF8C00;
+        border-color: #FF8C00;
+        position: absolute;
+    }
+    
+    .button9 {
+        left: 310px;
+        top: 310px;
+        background-color: #FF8C00;
+        border-color: #FF8C00;
+        position: absolute;
+    }
+    
+    
+    .playButton {
+        position: absolute;
+        left: 80px;
+        top: 460px;
+    }
+    
+    .playButton:hover {
+        transform: scale(1.1);
+    }
+    
