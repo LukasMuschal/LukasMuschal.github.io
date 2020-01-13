@@ -9,13 +9,13 @@ window.addEventListener("load", function(){
         completed: boolean;
     }
 
-    document.querySelector("#addTask").addEventListener("click", function() {
-        if((<HTMLInputElement> document.getElementById("inputField")).value != " "){
+    document.querySelector("#Hinzufügen").addEventListener("click", function() {
+        if((<HTMLInputElement> document.getElementById("Eingabe")).value != " "){
             var newTask = new Object as tasks;
-            newTask.taskName =  (<HTMLInputElement> document.getElementById("inputField")).value;
+            newTask.taskName =  (<HTMLInputElement> document.getElementById("Eingabe")).value;
             allTasks.push(newTask);
             console.log(allTasks.length);
-            (<HTMLInputElement> document.getElementById("inputField")).value = " ";
+            (<HTMLInputElement> document.getElementById("Eingabe")).value = " ";
             createElementsFromArray();
         }
     },false);
