@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(192, 210, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(129, 127, 127);
+}
+.outerBox {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: table;
+}
+#inputField {
+    background-color: white;
+    font-size: 20px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 260px;
+    padding: 8px 16px;
+}
+#addTask {
+    float: right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    border-style: none;
+    padding: 8px 16px;
+    background-color: white;
+}
+#addTask:hover {
+    color: lightblue;
+}
+.trash {
+    font-size: 35px;
+    position: absolute;
+    right: 16px;
+}
+.trash:hover{
+    color: lightblue;
+}
+#check{
+    font-size: 23px;
+
+}
+.circle{
+    font-size: 35px;
+    padding-left: 16px;
+    position: absolute;
+    left: 3px;
+}
+
+.testClass{
+    width: 100%;
+    background-color: #fff;
+}
+.newDiv {
+    background-color: white;
+    width: 100%;
+    height: 42px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #888888;
+}
+.p {
+    float: left;
+    position: absolute; 
+    margin-left: 65px; 
+    margin-top: 8px;
+    font-size: 20px;
+}
+#myTasks {
+}
+
+#createTasks{
+    border-bottom: 3px solid #c5c5c5;
+    padding: 16px 0px;
+    background-color: white;
+}
