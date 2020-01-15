@@ -1,15 +1,15 @@
 
 var tasks = [
     {
-        name: "Lorem",
+        name: "Einkaufen",
         check: true
     },
     {
-        name: "Ipsum",
+        name: "Zähneputzen",
         check: false
     },
     {
-        name: "Dolor",
+        name: "Kochen",
         check: false
     }
 ];
